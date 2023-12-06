@@ -28,8 +28,8 @@ public class MainPageTest {
 
     @Test
     public void search() {
-        //mainPage.searchButton.click();
-//*
+        mainPage.searchButton.click();
+
         $("[data-test='search-input']").sendKeys("Selenium");
         $("button[data-test='full-search-button']").click();
 
